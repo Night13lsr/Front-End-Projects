@@ -1,0 +1,59 @@
+<!-- In this project, you are required to create a single-page CV (Curriculum Vitae) using only HTML. Your webpage should look like the following image: -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <title>CV - Laura Sevillano | 2025</title>
+</head>
+<body>
+    <br>
+    <hr>
+    <div class="datospersonales">
+    <h1 property="og:title" class="nombre">Your Name</h1>
+    <h2 property="og:title" class="puesto">Junior Frontend Developer</h2>
+    <p class="telefono">(123) 456-7890</p>
+    <p class="email">no_reply@example.com</p>
+    <p class="direccion">123 Your Street<br>Your City, ST 12345</p>
+    </div> 
+    <div class="skills">
+    <h2 property="og:title" class="titulo-skills">Skills</h2>
+    <p class="texto-skills">HTML, CSS, JavaScript, Accesibility, Figma to Design, Responsive Web Design, Technical Writing, Presentation.</p>
+    </div>
+    <div class="educacion">
+    <h2 property="og:title" class="titulo-educacion">Education</h2>
+    <h3 property="og:title" class="educacion-centro-de-estudios">School Name, Location - Degree</h3>
+    <h4 property="og:title" class="educacion-fecha">Month 20xx to Month 20xx</h4>
+    <p class="educacion-descripcion">List of exciting thins you did at university</p>
+    </div>
+    <div class="experiencia">
+        <h2 property="og:title" class="experiencia-titulo">Experiencia</h2>
+        <div class="experiencia1">
+            <h3 property="og:title" class="experiencia-empresa">Company Name, Location - Job Title</h3>
+            <h4 property="og:title" class="experiencia-fecha">Month 20xx to Month 20xx</h4>
+            <ul class="experiencia-lista">
+                <li property="og:description" class="experiencia-lista1">List of achievements</li>
+                <li property="og:description" class="experiencia-lista2">List of achievements</li>
+                <li property="og:description" class="experiencia-lista3">List of achievements</li>
+            </ul>
+            <p property="og:description" class="experiencia-skills">Skills: List of skills used or gained at this company</p>
+        </div>
+        <div class="experiencia2">
+            <h3 property="og:title" class="experiencia-empresa"> Company Name, Location - Job Title</h3>
+            <h4 property="og:title" class="experiencia-fecha">Month 20xx to Month 20xx</h4>
+            <ul class="experiencia-lista">
+                <li property="og:description" class="experiencia-lista1">List of achievements</li>
+                <li property="og:description" class="experiencia-lista2">List of achievements</li>
+                <li property="og:description" class="experiencia-lista3">List of achievements</li>
+            </ul>
+            <p property="og:description" class="experiencia-skills">Skills: List of skills used or gained at this company</p>
+        </div>
+    </div>
+    <div class="Linksinternet">
+    <h2 property="og:title" class="linksinternet-titulo">Across the Internet</h2>
+    <a property="og:url" href="facebook.com" class="link-facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+    <a property="og:url" href="linkedin.com" class="link-linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+    <a property="og:url" href="github.com" class="link-linkedin"><i class="fa fa-github" aria-hidden="true"></i></a>
+</div>
+</body>
+</html>

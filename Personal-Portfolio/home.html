@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="home for a basic HTML Website for roadmap.sh frontend" />
+    <meta name="keywords" content="Frontend Project, HTML, Roadmap.sh" />
+    <meta name="author" content="Laura Sevillano" />
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        const theme = localStorage.getItem('theme');
+if (theme) {
+  document.body.setAttribute('data-theme', theme);
+} else {
+  localStorage.setItem('theme', 'dark');
+}
+
+function toggleTheme() {
+  const sunIcon = document.getElementById('sun_icon');
+  const moonIcon = document.getElementById('moon_icon');
+  const body = document.body;
+  const theme = body.getAttribute('data-theme');
+  body.setAttribute('data-theme', theme === 'dark' ? 'light' : 'dark');
+  if (theme === 'dark') {
+    sunIcon.style.display = 'block';
+    moonIcon.style.display = 'none';
+  } else {
+    sunIcon.style.display = 'none';
+    moonIcon.style.display = 'block';
+  }
+}
+    </script>
+    <title>Home - Basic HTML Website</title>
+</head>
+<body>
+    <!-- Header-->
+    <header>
+        <div class="logo">
+            <img width="60" src="https://unavatar.io/github" alt="Logotipo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Cuerpo-->
+    <main>
+        <div class="container">
+        <section class="hero">
+            <h1>Software Engineer</h1>
+            <p>I build things for the web</p>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Project 1</li>
+                <li>Project 2</li>
+                <li>Project 3</li>
+                <li>Project 4</li>
+                <li>Project 5</li>
+            </ul>
+        </section>
+
+        <section class="work-experience">
+            <h2>Work Experience</h2>
+            <article>
+                <h3>roadmap.sh</h3>
+                <p>Solved all the frontend projects</p>
+                <a href="projects.html">Visit my projects</a>
+            </article>
+            <article>
+                <h3>roadmap.sh</h3>
+                <p>Solved all the frontend projects</p>
+                <a href="projects.html">Visit my projects</a>
+            </article>
+        </section>
+
+        <section class="Education">
+            <h2>Education</h2>
+            <p>Graduate title, studies included:</p>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+        </section>
+    </div>
+        
+        <section>
+            <h2>Feedback</h2>
+            <blockquote>
+                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                <footer>Jane Doe, Assistant Professor</footer>
+            </blockquote>
+            <blockquote>
+                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                <footer>Jane Doe, Assistant Professor</footer>
+            </blockquote>
+            <blockquote>
+                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                <footer>Jane Doe, Assistant Professor</footer>
+            </blockquote>
+        </section>
+
+    </main>
+    <footer>
+        <p>All rights reserved 2025</p>
+    </footer>
+    </body>
+</html>

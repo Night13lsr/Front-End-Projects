@@ -1,0 +1,132 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.testimonial2 {
+    max-width: 350px;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 25px;
+
+}
+.testimonial3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 5%;
+}
+.testimonial4{
+    border:2px solid black;
+    border-radius: 25px;
+    padding:5%;
+    margin-top: 5%;
+}
+.testimonial1 {
+    max-width: 350px;
+    margin:0;
+    padding:0;
+}
+.texto {
+    background-color: black;
+    color:white;
+    padding:5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+}
+.flecha-down {
+    width:0px;
+    height:0px;
+    border-left:10px solid transparent; /* izquierda flecha */
+    border-right:10px solid transparent; /* derecha flecha */
+    border-top:10px solid #000000; /* base flecha y color*/
+    font-size:0px;
+    line-height:0px;
+    display: flex;
+    margin-left: 3vh;
+}
+.imagen {
+    max-width: 60px;
+    border-radius: 50px;
+    display: flex;
+    margin-left:1vh;
+}
+.imagen2 {
+    max-width: 60px;
+    border-radius: 50px;
+    display: flex;
+}
+.info{
+    margin-top:0.5vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.columna1{
+    width: 25%;
+}
+.columna2{
+    margin-top: -1vh;
+    width: 75%;
+}
+.columna2 p {
+    margin-top: -2.5vh;
+    font-size: 12px;
+}
+.columna2 h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.columna1-img {
+    width: 23%;
+    margin-right: 2%;
+}
+.columna2-info {
+    width: 69%;
+    background-color: black;
+    color:white;
+    padding: 2%;
+    border-radius: 25px;
+    padding-top: 4%;
+}
+.imagen-testimonial3{
+    width: 100%;
+    border-radius: 25px;
+}
+.puesto{
+    font-size:15px;
+    color:rgb(197, 197, 197);
+    margin-top: -15px;
+}
+.fa-star{
+    color:yellow
+}
+.descripcion p{
+    text-align: center;
+}
+.img-noseleccionada{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    opacity: 0.5;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.img-seleccionada{
+    width: 60px;
+    border-radius: 50px;
+}
+.carrusel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left:39%;
+}
+.fa-arrow-left, .fa-arrow-right {
+  position: relative;
+  top: 50%;
+  transform: translateY(30%);
+}
